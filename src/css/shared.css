@@ -1,120 +1,29 @@
+/* GLOBAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f5f5;
-  color: #333;
-  line-height: 1.6;
-  padding: 0;
-  margin: 0;
-}
-
-.content-container {
-  padding: 40px;
-  padding-left: 200px;
-  padding-right: 200px;
-  max-width: none;
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-
-
-.contact-header {
+/* HEADER & NAVBAR */
+header {
   text-align: center;
-  max-width: 650px;
-  margin: 0 auto 30px;
-  padding: 0 15px;
+  margin-bottom: 40px;
 }
 
-.contact-header h1 {
-  font-size: 1.8rem;
-  margin-bottom: 8px;
-}
-
-.contact-header p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.5;
-}
-
-.contact-form {
-  flex: 1;
-  min-width: 450px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin: 0 auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 0.95rem;
-}
-
-.contact-form button {
-  background-color: #4ea8ff;
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 10px 14px;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.2s ease;
-}
-
-.contact-form button:hover {
-  background-color: #368fe0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-
-.contact-grid {
-  display: flex;
-  gap: 80px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.contact-info {
-  flex: 1;
-  min-width: 250px;
-  font-size: 0.95rem;
-  color: #444;
-}
-
-.contact-info h2 {
-  font-size: 1.3rem;
+header h1 {
+  font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.contact-info p {
-  margin: 6px 0 20px;
-  line-height: 1.4;
+header p {
+  font-size: 1.2rem;
   color: #555;
 }
 
-.contact-info a {
-  color: #4ea8ff;
-  text-decoration: none;
+section {
+  margin-bottom: 40px;
 }
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-
 
 .navbar {
   position: sticky;
@@ -186,66 +95,45 @@ body {
   box-shadow: 0 6px 12px rgb(0 95 163 / 0.6);
 }
 
-
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
     gap: 10px;
   }
-
   .nav-links {
     flex-direction: column;
     gap: 12px;
   }
-
-  .content-container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 
-.timezone-section {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #e8f0fe;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.timezone-section a {
-  color: #0077cc;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.timezone-section a:hover {
-  text-decoration: underline;
-}
-
-.discord-widget {
-  max-width: 600px;
-  margin: 60px auto 0;
-  text-align: center;
-  background: white;
-  padding: 30px 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-.discord-widget h2 {
-  font-size: 1.4rem;
-  margin-bottom: 15px;
+/* BODY & CONTENT */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #1c1c1c;
   color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+.content-container {
+  padding: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+  max-width: none;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 
+/* FOOTER */
 .site-footer {
-  background-color: #222;
-  color: #eee;
+  background-color: #141414;
+  color: #fff;
   padding: 50px 20px 20px;
   font-size: 0.95rem;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .footer-container {
@@ -265,7 +153,7 @@ body {
 .footer-section h3 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  color: #fff;
+  color: #f5f5f5;
 }
 
 .social-icons {
@@ -307,7 +195,7 @@ body {
 }
 
 .footer-links a:hover {
-  color: #fff;
+  color: #f5f5f5;
 }
 
 .subscribe-form {
@@ -325,7 +213,7 @@ body {
 
 .subscribe-form button {
   padding: 10px;
-  background-color: #4ea8ff;
+  background-color: #2a68c5;
   color: white;
   font-weight: bold;
   border: none;
@@ -335,7 +223,7 @@ body {
 }
 
 .subscribe-form button:hover {
-  background-color: #368fe0;
+  background-color: #255fb6;
 }
 
 .footer-bottom {
