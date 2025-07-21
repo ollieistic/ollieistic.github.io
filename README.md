@@ -17,7 +17,7 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ### Additional Terms
 
-All **logos, icons, and branding materials** in this repository — including, but not limited to, `logo.png` and `favicon.png` — are **copyrighted** by the owner and are **not** covered by the GPL-3.0 license.
+All **logos, icons, and branding materials** in this repository — including, but not limited to, `/src/logo.png` and `/src/favicon.png` — are **copyrighted** by the owner and are **not** covered by the GPL-3.0 license.
 
 These assets may **not** be reused, modified, or redistributed in any form without **prior permission**.
 
