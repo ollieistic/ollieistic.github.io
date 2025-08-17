@@ -1,0 +1,94 @@
+/* BODY */
+body {
+    background-color: #141414;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    margin-top: 20px;
+    max-width: 80px;
+}
+
+.hero h1 {
+    color: #F5F5F5;
+    font-size: 2.2rem;
+}
+
+/* ABOUT */
+.about {
+    background-color: #252525;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px
+}
+
+.about h2 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.about p {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* SOCIALS */
+.socials {
+    background-color: #252525;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.socials h2 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.social-icon img,
+.social-icon svg {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.social-icon img:hover,
+.social-icon svg:hover {
+    transform: scale(1.1);
+}
+
+/* NOTE */
+.note {
+    background-color: #252525;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px
+}
+
+.note h2 {
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.note p {
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 1.2rem;
+}
